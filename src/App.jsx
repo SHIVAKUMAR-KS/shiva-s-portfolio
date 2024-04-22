@@ -1,10 +1,15 @@
 
+import styled,{ThemeProvider} from "styled-components"
+import {darkTheme} from "../src/utils/Themes"
+import Navbar from "./components/Navbar"
 function App() {
   
   return (
-   <>
-   <h1>shiva kumar</h1>
-   </>
+    <ThemeProvider theme={darkTheme}>
+      <Navbar/>  
+
+    </ThemeProvider>
+   
   )
 }
 
