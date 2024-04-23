@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link as LinkR } from "react-router-dom";
 import styled, { useTheme } from "styled-components";
-import { Bio } from "../data/constants"
+import { Bio } from "../data/constants";
 import { MenuRounded } from "@mui/icons-material";
 
 const Nav = styled.div`
@@ -138,12 +138,15 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
+        <NavLogo to="/">
+          <ColorText>&lt;</ColorText>Rishav
+          <div style={{ color: theme.primary }}>/</div>Chanda
+          <ColorText>&gt;</ColorText>
+        </NavLogo>
 
-
-        
-     
-
-      
+        <MobileIcon onClick={() => setIsOpen(!isOpen)}>
+          <MenuRounded style={{ color: "inherit" }} />
+        </MobileIcon>
 
         <NavItems>
           <NavLink href="#About">About</NavLink>
@@ -153,7 +156,36 @@ const Navbar = () => {
           <NavLink href="#Education">Education</NavLink>
         </NavItems>
 
-        
+        {isOpen && (
+          <MobileMenu isOpen={isOpen}>
+            <NavLink onClick={() => setIsOpen(!isOpen)} href="#About">
+              About
+            </NavLink>
+            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Skills">
+              Skills
+            </NavLink>
+            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Experience">
+              Experience
+            </NavLink>
+            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Projects">
+              Projects
+            </NavLink>
+            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
+              Education
+            </NavLink>
+            <GithubButton
+              href={Bio.github}
+              target="_Blank"
+              style={{
+                background: theme.primary,
+                color: theme.text_primary,
+              }}
+            >
+              Github Profile
+            </GithubButton>
+          </MobileMenu>
+        )}
+
         <ButtonContainer>
           <GithubButton href={Bio.github} target="_Blank">
             Github Profile
