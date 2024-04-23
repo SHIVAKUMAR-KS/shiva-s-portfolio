@@ -179,10 +179,12 @@ const ResumeButton = styled.a`
 
 const Img = styled.img`
   border-radius: 50%;
-  width: 100%;
+  width: 500%;
   height: 100%;
+  margin-right: 130px;
   max-width: 400px;
-  max-height: 400px;
+  max-height: 500px;
+  overflow: hidden;
   border: 2px solid ${({ theme }) => theme.primary};
 
   @media (max-width: 640px) {
@@ -256,7 +258,7 @@ const Hero = () => {
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Img src={HeroImg} alt="Rishav Chanda" />
+                  <Img src={HeroImg} alt="shiva kumar" />
                 </Tilt>
               </motion.div>
             </HeroRightContainer>
