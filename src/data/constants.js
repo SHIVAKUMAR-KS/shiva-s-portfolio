@@ -275,6 +275,11 @@ export const skills = [
         image:
           "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
       },
+      {
+        name: "MondoDB Compass",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      },
       // {
       //   name: "Adobe XD",
       //   image:

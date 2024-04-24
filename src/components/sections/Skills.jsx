@@ -128,7 +128,7 @@ const Skills = () => {
           }}
         >
           Here are some of my skills on which I have been working on for the
-          past 3 years.
+          past 1 years as a 2nd year CSE student.
         </Desc>
 
         <SkillsContainer>

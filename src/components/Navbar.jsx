@@ -140,7 +140,8 @@ const Navbar = () => {
       <NavbarContainer>
         <NavLogo to="/">
           <ColorText>&lt;</ColorText>Shiva
-          <div style={{ color: theme.primary }}>/</div>Kumar
+          <div style={{ color: theme.primary }}></div> Kumar
+          <div style={{ color: theme.primary }}>/</div>
           <ColorText>&gt;</ColorText>
         </NavLogo>
 
