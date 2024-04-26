@@ -468,7 +468,7 @@ export const projects = [
     webapp: "do-app-mern-rosy.vercel.app",
   },
   {
-    id: 0,
+    id: 10,
     title: "Educity",
     date: "Apr 2023 - May 2023",
     description:
@@ -479,6 +479,34 @@ export const projects = [
     category: "web app",
     github: "https://github.com/SHIVAKUMAR-KS/Educity-React_App",
     webapp: "https://educity-react-app-w9lp.vercel.app/",
+    
+  },
+  {
+    id: 11,
+    title: "Image Generator Application",
+    date: "Sep 2023 - Oct 2023",
+    description:
+      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStWuFCt-KBmJEjfqHbA-3UxTUDckm_M82jFA&s",
+    tags: ["Html", "Css", "Javascript"],
+    category: "web app",
+    github: "https://github.com/SHIVAKUMAR-KS/Image-Generator-App",
+    webapp: "https://github.com/SHIVAKUMAR-KS/Image-Generator-App",
+    
+  },
+  {
+    id: 2,
+    title: "QR Code Generator",
+    date: "Sep 2023 - Oct 2023",
+    description:
+      "Developed a  web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+    image:
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAABlBMVEUAAAD///+l2Z/dAAACWElEQVR4nO3XQY4bMQwEwM3/P53TIgEyoJukZryIi0cNRXbpZH997erXdxWfikqalwm3RUgYND+ouSpCwqD5Qc1VEf4kYRKoSDabc99kwqdy3DeZ8Kkc900mfCrHfZMJn8px3+RKePEt2PpA8ywhISEhISEh4UHhv1X0tD4REhISEhIS/hxhMqf1iZCQkJCQkPBWYVKzW8mc5KQ1mTBONivC+S7CfrJZEc53EfaTzepR4ayWWVsn7ynCkyfvKcKTJ+8pwpMn7ynCkyfbiKdqtv2+YISDiYSEhN08pwb9mUhIeFpYTGxlTeYUJy1q8kC9ZISEhISEhP+7MBm9XDZ7u9mtizyEhISEhISE5X/8hDF7oNnA5FZ1nZCQkJCQkLAUtvBJ83JpMbCq5Y5ZoNnSYiDhYscs0GxpMZBwsWMWaLa0GEi42DELNFtaDPxIYetaAUsfMh6YfIrwhISEhISEhOXW1rJWjhZ+GYOQkJCQkJCwFibdS8+x0K0iJCQkJCT8YGHrfitZ0dN6jiRqNYeQkJCQkJAwi5hsTfBFz2xp9ImQkJCQkPCDhcX6VrWSJVmX70JISEhISEg4/QkxTJaETtLPXoGQkJCQkJDwMuupHK1brTyt1yTsZ53dInwxJ1rR8BEObhG+mBOtaPgIB7ceFSZbk1vF+lOVvEKVPukhJNwV4av0SQ8h4a4IX6VPelq3ihzLOdEjEhISEhISEq6FxfXEk+AjBiEhISEhIWEmTGqW7FRz8VKEcRES7poJCZfJCA80D4WzKrIW6VtZZw9ESEhISEhI+Nen36pFX+BZqCWaAAAAAElFTkSuQmCC",
+    tags: ["Html", "Css", "Python","Flask"],
+    category: "web app",
+    github: "https://github.com/SHIVAKUMAR-KS/QR_Generator",
+    webapp: "https://github.com/SHIVAKUMAR-KS/QR_Generator",
     
   },
   
