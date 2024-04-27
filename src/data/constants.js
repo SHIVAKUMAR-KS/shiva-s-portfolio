@@ -465,7 +465,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/SHIVAKUMAR-KS/TODO_APP_MERN",
-    webapp: "do-app-mern-rosy.vercel.app",
+    webapp: "https://todo-app-mern-rosy.vercel.app/",
   },
   {
     id: 10,
