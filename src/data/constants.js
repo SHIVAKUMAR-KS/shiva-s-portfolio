@@ -439,8 +439,8 @@ export const projects = [
       "PostgressSQL",
       "Node Js",
       "Express Js",
-      "Prishma",
-      "React Flow",
+      "Prisma",
+      "React Icon",
       "Hono",
       "cloudfare"
     ],
@@ -474,7 +474,7 @@ export const projects = [
     title: "Educity",
     date: "Apr 2023 - May 2023",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+     "Just build my own frontend website hich consists Email API to get an contact form the user.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYQXSUjMGHanPxhkREmQUwDcqYhspwy-_D-g&s",
     tags: ["React Js", "Css", "Web 3 Form"],
