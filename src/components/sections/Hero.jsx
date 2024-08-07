@@ -131,10 +131,10 @@ const SubTitle = styled.div`
 `;
 
 const ResumeButton = styled.a`
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
-  text-decoration: none;
+  // -webkit-appearance: button;
+  // -moz-appearance: button;
+  // appearance: button;
+  // text-decoration: none;
 
   width: 95%;
   max-width: 300px;
