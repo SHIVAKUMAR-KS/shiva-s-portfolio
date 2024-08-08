@@ -6,11 +6,14 @@ import HeroImg from "../../images/HeroImage.jpg";
 import HeroBgAnimation from "../HeroBgAnimation";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-import {
-  headContainerAnimation,
-  headContentAnimation,
-  headTextAnimation,
-} from "../../utils/motion";
+import {headContainerAnimation} from "../../utils/motion"
+import {headContentAnimation} from "../../utils/motion"
+import {headTextAnimation} from "../../utils/motion"
+// import {
+//   headContainerAnimation,
+//   headContentAnimation,
+//   headTextAnimation,
+// } from "../../utils/motion";
 import StarCanvas from "../canvas/Stars";
 
 const HeroContainer = styled.div`
