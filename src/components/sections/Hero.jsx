@@ -3,12 +3,12 @@ import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
 import HeroImg from "../../images/HeroImage.jpg";
-import HeroBgAnimation from "../HeroBgAnimation";
+// import HeroBgAnimation from "../HeroBgAnimation";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-import {headContainerAnimation} from "../../utils/motion"
-import {headContentAnimation} from "../../utils/motion"
-import {headTextAnimation} from "../../utils/motion"
+// import {headContainerAnimation} from "../../utils/motion"
+// import {headContentAnimation} from "../../utils/motion"
+// import {headTextAnimation} from "../../utils/motion"
 // import {
 //   headContainerAnimation,
 //   headContentAnimation,
@@ -206,14 +206,14 @@ const Hero = () => {
     <div id="About">
       <HeroContainer>
         <HeroBg>
-          <StarCanvas />
-          <HeroBgAnimation />
+          {/* <StarCanvas /> */}
+          {/* <HeroBgAnimation /> */}
         </HeroBg>
 
-        <motion.div {...headContainerAnimation}>
+        <motion.div >
           <HeroInnerContainer>
             <HeroLeftContainer>
-              <motion.div {...headTextAnimation}>
+              <motion.div>
                 <Title>
                   Hi, I am <br /> {Bio.name}
                 </Title>
@@ -231,7 +231,7 @@ const Hero = () => {
                 </TextLoop>
               </motion.div>
 
-              <motion.div {...headContentAnimation}>
+              <motion.div >
                 <SubTitle>{Bio.description}</SubTitle>
               </motion.div>
 
@@ -240,7 +240,7 @@ const Hero = () => {
               </ResumeButton>
             </HeroLeftContainer>
             <HeroRightContainer>
-              <motion.div {...headContentAnimation}>
+              <motion.div>
                 <Tilt>
                   <Img src={HeroImg} alt="shiva kumar" />
                 </Tilt>
