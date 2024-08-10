@@ -205,10 +205,10 @@ const Hero = () => {
   return (
     <div id="About">
       <HeroContainer>
-        <HeroBg>
+        {/* <HeroBg> */}
           {/* <StarCanvas /> */}
           {/* <HeroBgAnimation /> */}
-        </HeroBg>
+        {/* </HeroBg> */}
 
         <motion.div >
           <HeroInnerContainer>
