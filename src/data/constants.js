@@ -7,7 +7,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "Driven and adaptable, I thrive on embracing new challenges with enthusiasm. Passionate about continuous learning, I am committed to excellence and delivering outstanding results. My positive outlook and growth mindset fuel my ambition to make significant contributions and achieve remarkable success.",
   github: "https://github.com/SHIVAKUMAR-KS/",
   resume:"https://drive.google.com/file/d/1XC4G2ap3mH_7RoSET2H-B8_0BmAoCmBD/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/shiva-kumar-390ba5234/",

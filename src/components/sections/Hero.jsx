@@ -31,7 +31,6 @@ const HeroContainer = styled.div`
     padding: 32px 16px;
   }
 
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 `;
 const HeroInnerContainer = styled.div`
   position: relative;
@@ -134,31 +133,32 @@ const SubTitle = styled.div`
 `;
 
 const ResumeButton = styled.a`
-  // -webkit-appearance: button;
-  // -moz-appearance: button;
-  // appearance: button;
-  // text-decoration: none;
+  
 
-  width: 95%;
-  max-width: 300px;
-  text-align: center;
-  padding: 16px 0;
 
-  background: hsla(#FBFBFB, 100%, 50%, 1);
+
+  border: 5px solid ${({ theme }) => theme.primary};
+  color: ${({ theme }) => theme.primary};
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100%;
+  max-width:200px;
+  padding:15px 2px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.6s ease-in-out;
+  text-decoration: none;
+  &:hover {
+    background: ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.text_primary};
+  }
   
  
   
-  box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
-  border-radius: 50px;
-  font-weight: 600;
-  font-size: 20px;
-
-      
-    @media (max-width: 640px) {
-        padding: 12px 0;
-        font-size: 18px;
-    } 
-    color: white;
+  
 `;
 
 const Img = styled.img`
