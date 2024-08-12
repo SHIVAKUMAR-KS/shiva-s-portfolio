@@ -244,6 +244,15 @@ export const skills = [
     ],
   },
   {
+    title: "Programming Language",
+    skills: [
+      {
+        name: "java",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+      }
+    ]
+  },
+  {
     title: "Others",
     skills: [
       {
