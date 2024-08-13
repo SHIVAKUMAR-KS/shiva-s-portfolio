@@ -4,7 +4,7 @@ import { skills } from "../../data/constants";
 import { Tilt } from "react-tilt";
 
 const Container = styled.div`
-font-size: 10px;
+font-size: 18px;
 display: flex;
 flex-direction: column;
 justify-content-center;
@@ -39,7 +39,7 @@ const Title = styled.div`
 `;
 
 const Desc = styled.div`
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
   font-weight: 600;
   color: ${({ theme }) => theme.text_secondary};
@@ -125,7 +125,7 @@ const Skills = () => {
         <Title>Skills</Title>
         <Desc
           style={{
-            marginBottom: "40px",
+            marginBottom: "50px",
           }}
         >
           Here are some of my skills on which I have been working on for the

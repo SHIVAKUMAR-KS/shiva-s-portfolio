@@ -135,6 +135,39 @@ export const skills = [
     ],
   },
   {
+    title: "Programming Language",
+    skills: [
+      {
+        name: "java",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+      },
+      {
+        name: "C",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+      },
+      {
+        name: "C++",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+      },
+      {
+        name: "Python",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+      },
+      {
+        name: "Javascript",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+      },
+      {
+        name: "TypeScript",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+      },
+      {
+        name: "PHP",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+      },
+    ]
+  },
+  {
     title: "DevOps",
     skills: [
       // {
@@ -243,15 +276,7 @@ export const skills = [
       // },
     ],
   },
-  {
-    title: "Programming Language",
-    skills: [
-      {
-        name: "java",
-        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
-      }
-    ]
-  },
+  
   {
     title: "Others",
     skills: [

@@ -134,9 +134,6 @@ const SubTitle = styled.div`
 
 const ResumeButton = styled.a`
   
-
-
-
   border: 5px solid ${({ theme }) => theme.primary};
   color: ${({ theme }) => theme.primary};
   justify-content: center;

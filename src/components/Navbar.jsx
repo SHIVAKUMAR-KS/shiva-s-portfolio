@@ -3,6 +3,7 @@ import { Link as LinkR } from "react-router-dom";
 import styled, { useTheme } from "styled-components";
 import { Bio } from "../data/constants";
 import { MenuRounded } from "@mui/icons-material";
+import { Tilt } from "react-tilt";
 
 const Nav = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -34,9 +35,10 @@ const NavLogo = styled(LinkR)`
   display: flex;
   align-items: center;
   width: 80%;
+  bold: flex;
   padding: 0 6px;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   text-decoration: none;
   color: inherit;
 `;
@@ -149,13 +151,16 @@ const Navbar = () => {
           <MenuRounded style={{ color: "inherit" }} />
         </MobileIcon>
 
-        <NavItems>
+        <Tilt>
+          <NavItems>
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
           <NavLink href="#Experience">Experience</NavLink>
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Education">Education</NavLink>
         </NavItems>
+        </Tilt>
+        
 
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
