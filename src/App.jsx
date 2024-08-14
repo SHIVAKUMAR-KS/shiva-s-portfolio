@@ -13,6 +13,7 @@ import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
 import ProjectDetails from "./components/Dialog/ProjectDetails";
 import { useState } from "react";
+import Certificate from "./components/sections/Certificate";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -51,7 +52,9 @@ function App() {
               <Wrapper>
                 <Skills />
                 <Experience />
+                <Certificate/>
               </Wrapper>
+              
               <Projects openModal={openModal} setOpenModal={setOpenModal} />
               <Wrapper>
                 <Education />

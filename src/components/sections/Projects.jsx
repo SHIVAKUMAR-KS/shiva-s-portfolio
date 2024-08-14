@@ -51,7 +51,7 @@ const Desc = styled.div`
 
 const ToggleButtonGroup = styled.div`
 display: flex;
-border: 1.5px solid ${({ theme }) => theme.primary};
+border: 1.5px solid ${({ theme }) => theme.text_primary};
 color: ${({ theme }) => theme.primary};
 font-size: 16px;
 border-radius: 12px;
@@ -80,10 +80,10 @@ const ToggleButton = styled.div`
   `}
 `;
 
-const Divider = styled.div`
-  width: 1.5px;
-  background: ${({ theme }) => theme.primary};
-`;
+// const Divider = styled.div`
+//   width: 1.5px;
+//   background: ${({ theme }) => theme.primary};
+// `;
 
 const CardContainer = styled.div`
   display: flex;
@@ -104,7 +104,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             marginBottom: "40px",
           }}
         >
-          I have worked on a wide range of projects. for web apps. Here are some of my projects.
+          I have worked on a wide range of projects. for web application. Here are some of my projects.
         </Desc>
         <ToggleButtonGroup>
           <ToggleButton
