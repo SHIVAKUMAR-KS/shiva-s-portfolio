@@ -212,7 +212,7 @@ const Hero = () => {
             <HeroLeftContainer>
               <motion.div>
                 <Title>
-                  Hi, I am <br /> {Bio.name}
+                  Hey There!, I am <br /> {Bio.name}
                 </Title>
                 <TextLoop>
                   I am a
