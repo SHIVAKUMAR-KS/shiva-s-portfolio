@@ -63,7 +63,7 @@ const Certificate = () => {
         }}
       >
         Its mine all certificate as a software developer as a college student and
-        working and Learning on Differevt varrous sources.
+        working and Learning on Different various sources.
       </Desc>
 
       
