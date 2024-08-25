@@ -2,8 +2,10 @@
 // import styled from "styled-components";
 // import emailjs from "@emailjs/browser";
 import React, { useState } from "react";
+import {certificates} from "../../data/constants"
 
 import styled from "styled-components";
+import ProjectCard from "../cards/ProjectCard";
 
 const Container = styled.div`
 margin-top: 100px;
@@ -81,7 +83,13 @@ const ToggleButton = styled.div`
   `}
 `;
 
-
+const CardContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  flex-wrap: wrap;
+`;
 
 const Certificate = () => {
   const [toggle, setToggle] = useState("all");
@@ -110,6 +118,16 @@ const Certificate = () => {
           </ToggleButton>
           
         </ToggleButtonGroup>
+        <CardContainer>
+          {certificates.map((certificates)=>{
+            <ProjectCard>
+              project={certificates}
+              openModal={openModal}
+              setOpenModal={setOpenModal}
+            </ProjectCard>
+          })}
+          
+        </CardContainer>
 
         
 

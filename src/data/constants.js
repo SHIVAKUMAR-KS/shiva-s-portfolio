@@ -548,3 +548,20 @@ export const projects = [
   
 ];
 
+export const certificates =[
+  {
+    id: 1,
+    title: "Certified ScrumMaster",
+    date: "August 2022",
+    institution: "Scrum Alliance",
+    image: "https://www.scrumalliance.org/sites/default/files/styles/large/public/scrumalliance-logo.png?itok=f8991834",
+  },
+  {
+    id: 2,
+    title: "Certified ScrumMaster",
+    date: "August 2021",
+    institution: "Scrum Alliance",
+    image: "https://www.scrumalliance.org/sites/default/files/styles/large/public/scrumalliance-logo.png?itok=f8991834",
+  },
+ 
+]
