@@ -1,12 +1,11 @@
-// import React, { useRef } from "react";
-// import styled from "styled-components";
-// import emailjs from "@emailjs/browser";
-import React, { useState } from "react";
-import {certificates} from "../../data/constants"
+// CertificatePage.js
+import React from 'react';
+import styled from 'styled-components';
+import { Certificates} from '../../data/constants';
 
-import styled from "styled-components";
-import ProjectCard from "../cards/ProjectCard";
 
+
+// Styled components
 const Container = styled.div`
 margin-top: 100px;
 display: flex;
@@ -14,6 +13,7 @@ flex-direction: column;
 justify-content-center;
 position: relative;
 z-index: 1;
+padding: 0 16px;
 align-items: center;
 `;
 const Wrapper = styled.div`
@@ -52,89 +52,96 @@ const Desc = styled.div`
   }
 `;
 
-const ToggleButtonGroup = styled.div`
-display: flex;
-border: 1.5px solid ${({ theme }) => theme.text_primary};
-color: ${({ theme }) => theme.primary};
-font-size: 16px;
-border-radius: 12px;
-font-weight 500;
-margin: 22px 0;
-@media (max-width: 768px){
-    font-size: 12px;
-}
-`;
-
-const ToggleButton = styled.div`
-  padding: 8px 18px;
-  border-radius: 6px;
-  cursor: pointer;
-  &:hover {
-    background: ${({ theme }) => theme.primary + 20};
-  }
-  @media (max-width: 768px) {
-    padding: 6px 8px;
-    border-radius: 4px;
-  }
-  ${({ active, theme }) =>
-    active &&
-    `
-  background:  ${theme.primary + 20};
-  `}
-`;
-
-const CardContainer = styled.div`
+const CertificateGrid = styled.div`
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 28px;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 `;
 
-const Certificate = () => {
-  const [toggle, setToggle] = useState("all");
-  
-  
+const CertificateContainer = styled.div`
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 300px;
+  background-color: #f9f9f9;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
 
+const CertificateImage = styled.img`
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+`;
+
+const CertificateDetails = styled.div`
+  text-align: center;
+  margin-top: 10px;
+`;
+const ButtonContainer = styled.div`
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+`;
+
+const Button = styled.a`
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  &:hover {
+    background-color: #0056b3;
+  }
+`;
+
+// Certificate component to display individual certificate
+const Certificate = ({ name, date, institution, image, button1, button2 }) => (
+  <CertificateContainer>
+    <CertificateImage src={image} alt={`${name}'s certificate`} />
+    <CertificateDetails>
+      <h3>{name}</h3>
+      <p>Date: {new Date(date).toLocaleDateString()}</p>
+      <p>Institution: {institution}</p>
+      <ButtonContainer>
+        <Button href={button1.url} target="_blank" rel="noopener noreferrer">
+          {button1.label}
+        </Button>
+        <Button href={button2.url} target="_blank" rel="noopener noreferrer">
+          {button2.label}
+        </Button>
+      </ButtonContainer>
+    </CertificateDetails>
+  </CertificateContainer>
+);
+
+// Main CertificatePage component
+const CertificatePage = () => {
   return (
-    <Container id="Experience">
-    <Wrapper>
-      <Title>Certificate</Title>
-      <Desc
-        style={{
-          marginBottom: "40px",
-        }}
-      >
-        Its mine all certificate as a software developer as a college student and
-        working and Learning on Different various sources.
-      </Desc>
-
-      <ToggleButtonGroup>
-          <ToggleButton
-            active={toggle === "all"}
-            onClick={() => setToggle("all")}
-          >
-            ALL
-          </ToggleButton>
-          
-        </ToggleButtonGroup>
-        <CardContainer>
-          {certificates.map((certificates)=>{
-            <ProjectCard>
-              project={certificates}
-              openModal={openModal}
-              setOpenModal={setOpenModal}
-            </ProjectCard>
-          })}
-          
-        </CardContainer>
-
-        
-
-      
-    </Wrapper>
-  </Container>
+    <Container id="Certificates">
+      <Wrapper>
+        <Title>Certificates</Title>
+        <Desc>Here are some of my certificates showcasing my achievements and qualifications.</Desc>
+        <CertificateGrid>
+          {Certificates.map((cert, index) => (
+            <Certificate
+              key={index}
+              name={cert.name}
+              date={cert.date}
+              institution={cert.institution}
+              image={cert.image}
+              button1={cert.button1}
+              button2={cert.button2}
+            />
+          ))}
+        </CertificateGrid>
+      </Wrapper>
+    </Container>
   );
 };
-
-export default Certificate;
+export default CertificatePage;
