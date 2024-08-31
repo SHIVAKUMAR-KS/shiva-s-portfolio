@@ -64,7 +64,7 @@ import pythonC from '../images/certificate/python_basic certificate (1)_page-000
 import sqlC from '../images/certificate/sql_basic certificate_page-0001.jpg'
 import FS_cohort from '../images/certificate/cohort.jpeg'
 import pw from '../images/certificate/PW_SKILLS.png'
-import postmanApi from '../images/certificate/postman.png'
+import postmanApi from '../images/certificate/postmanApi.png'
 
 
 export const Bio = {
@@ -629,7 +629,7 @@ export const Certificates = [
     name: "Postman API Fundamental Expert",
     date: "2024-08-12",
     institution: "Postman",
-    image: postman,
+    image: postmanApi,
     button1: { label: "View", url: "" },
     button2: { label: "Download", url: "" }
   },

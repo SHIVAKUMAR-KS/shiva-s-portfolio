@@ -2,6 +2,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Certificates} from '../../data/constants';
+import { Tilt } from 'react-tilt';
 
 
 
@@ -64,9 +65,9 @@ const CertificateContainer = styled.div`
   border-radius: 5px;
   padding: 10px;
   max-width: 300px;
-  background-color: #fff;
+  background-color: #222a35;
   text-align: left;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(1, 1, 1, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -81,11 +82,12 @@ const CertificateImage = styled.img`
 const CertificateDetails = styled.div`
   text-align: center;
   margin-top: 10px;
+  color: #ECFFE6;
 `;
 const ButtonContainer = styled.div`
   margin-top: 10px;
   display: flex;
-  gap: 10px;
+  gap:60px;
 `;
 
 const Button = styled.a`
@@ -124,9 +126,12 @@ const Certificate = ({ name, date, institution, image, button1, button2 }) => (
 const CertificatePage = () => {
   return (
     <Container id="Certificates">
+    
       <Wrapper>
+      <Tilt>
         <Title>Certificates</Title>
         <Desc>Here are some of my certificates showcasing my achievements and qualifications.</Desc>
+      </Tilt>
         <CertificateGrid>
           {Certificates.map((cert, index) => (
             <Certificate
@@ -140,7 +145,9 @@ const CertificatePage = () => {
             />
           ))}
         </CertificateGrid>
+      
       </Wrapper>
+      
     </Container>
   );
 };

@@ -4,6 +4,7 @@ import { experiences } from "../../data/constants";
 import { VerticalTimeline } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import ExperienceCard from "../cards/ExperienceCard";
+import { Tilt } from "react-tilt";
 
 const Container = styled.div`
 margin-top: 100px;
@@ -54,6 +55,9 @@ const Experience = () => {
   return (
     <Container id="Experience">
       <Wrapper>
+        <Tilt>
+
+        
         <Title>Experience</Title>
         <Desc
           style={{
@@ -63,6 +67,7 @@ const Experience = () => {
           My work experience as a software developer as a college student and
           working on different projects.
         </Desc>
+        </Tilt>
 
         <VerticalTimeline>
           {experiences.map((experience, index) => (

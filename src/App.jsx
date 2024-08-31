@@ -52,14 +52,16 @@ function App() {
               <Wrapper>
                 <Skills />
                 <Experience />
-                <Certificate/>
+                
               </Wrapper>
               
               <Projects openModal={openModal} setOpenModal={setOpenModal} />
               <Wrapper>
+              <Certificate/>
                 <Education />
                 <Contact />
               </Wrapper>
+              
               <Footer />
 
               {openModal.state && (
