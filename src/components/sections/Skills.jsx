@@ -122,15 +122,19 @@ const Skills = () => {
   return (
     <Container id="Skills">
       <Wrapper>
-        <Title>Skills</Title>
+      <Tilt>
+      <Title>Skills</Title>
         <Desc
           style={{
             marginBottom: "50px",
           }}
         >
+   
+        
           Here are some of my skills on which I have been working on for the
           past 1.5 years as a 3rd year CSE student.
-        </Desc>
+        </Desc> 
+        </Tilt>
 
         <SkillsContainer>
           {skills.map((skill, index) => (
