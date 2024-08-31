@@ -38,6 +38,18 @@ import xml  from '../images/backend/xml.jpeg'
 
 import jupyter from '../images/jupyter.png'
 
+//others
+import git  from '../images/others/git.png'
+import github  from '../images/others/github.png'
+import netlify  from '../images/others/netlify.png'
+import vercel  from '../images/others/vercel.png'
+import render  from '../images/others/render.png'
+import vs  from '../images/others/vscode.jpeg'
+import postman  from '../images/others/postman.png'
+import mongo  from '../images/others/mongoCompas.png'
+import figma  from '../images/others/figma.png'
+import canva  from '../images/others/canva.jpeg'
+
 export const Bio = {
   name: "Shiva kumar",
   roles: [
@@ -302,43 +314,36 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image:
-          "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
+        image:git
       },
       {
         name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        image:github
       },
       {
         name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+        image:netlify
       },
       {
         name: "Vercel",
-        image:
-          "data:image/png;base64,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",
+        image:vercel
       },
       {
         name: "Render",
-        image:
-          "",
+        image:render
+          
       },
       {
         name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+        image: vs
       },
       {
         name: "Postman",
-        image:
-          "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
+        image:postman
       },
       {
         name: "MondoDB Compass",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+        image:mongodb
       },
       // {
       //   name: "Adobe XD",
@@ -347,13 +352,11 @@ export const skills = [
       // },
       {
         name: "Figma",
-        image:
-          "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
+        image:figma
       },
       {
         name: "Canva",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYhbNS24TOF0-jl4Mbbs0FQC7eXgEZjgJIHujye99Inw&s",
+        image:canva
       },
     ],
   },
