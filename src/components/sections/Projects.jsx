@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { projects } from "../../data/constants";
 import ProjectCard from "../cards/ProjectCard";
+import { Tilt } from "react-tilt";
 
 const Container = styled.div`
 margin-top: 100px;
@@ -98,7 +99,9 @@ const Projects = ({ openModal, setOpenModal }) => {
   return (
     <Container id="Projects">
       <Wrapper>
-        <Title>Projects</Title>
+        <Tilt>
+          <Title>Projects</Title>
+       
         <Desc
           style={{
             marginBottom: "40px",
@@ -106,6 +109,8 @@ const Projects = ({ openModal, setOpenModal }) => {
         >
           I have worked on a wide range of projects. for web application. Here are some of my projects.
         </Desc>
+        </Tilt>
+        
         <ToggleButtonGroup>
           <ToggleButton
             active={toggle === "all"}

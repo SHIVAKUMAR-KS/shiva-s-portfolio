@@ -64,7 +64,7 @@ import pythonC from '../images/certificate/python_basic certificate (1)_page-000
 import sqlC from '../images/certificate/sql_basic certificate_page-0001.jpg'
 import FS_cohort from '../images/certificate/cohort.jpeg'
 import pw from '../images/certificate/PW_SKILLS.png'
-import postmanApi from '../images/certificate/postmanApi.png'
+import postmanApi from '../images/certificate/postmanAPI.jpeg'
 
 
 export const Bio = {
@@ -622,39 +622,39 @@ export const Certificates = [
     date: "2024-08-28",
     institution: "Google Cloud Platform",
     image:dataAnalyst,
-    button1: { label: "View", url: "" },
-    button2: { label: "Download", url: "" }
+    button1: { label: "View", url: "https://drive.google.com/file/d/1UgMqbQHl3arzZ38mBbk0TtQPd2GOwkpz/view?usp=drivesdk" },
+    button2: { label: "Download", url: "https://drive.google.com/file/d/1UgMqbQHl3arzZ38mBbk0TtQPd2GOwkpz/view?usp=drivesdk" }
   },
   {
     name: "Postman API Fundamental Expert",
     date: "2024-08-12",
     institution: "Postman",
     image: postmanApi,
-    button1: { label: "View", url: "" },
-    button2: { label: "Download", url: "" }
+    button1: { label: "View", url: "https://drive.google.com/file/d/1IEVtJX30Gyh4M1lPPduji-BcYEIw-QRr/view?usp=drivesdk" },
+    button2: { label: "Download", url: "https://drive.google.com/file/d/1IEVtJX30Gyh4M1lPPduji-BcYEIw-QRr/view?usp=drivesdk" }
   },
   {
     name: "Full Stack Development",
     date: "2024-06-24",
     institution: "100Xdevs",
     image: FS_cohort,
-    button1: { label: "View", url: "" },
-    button2: { label: "Download", url: "" }
+    button1: { label: "View", url: "https://drive.google.com/file/d/18YKiGcDQoSiFmA9_7bM7Qor8yZpWU3IC/view?usp=drivesdk" },
+    button2: { label: "Download", url: "https://drive.google.com/file/d/18YKiGcDQoSiFmA9_7bM7Qor8yZpWU3IC/view?usp=drivesdk" }
   },
   {
     name: "Java With DSA and System Design",
     date: "2024-02-20",
     institution: "Pw Skills",
     image: pw,
-    button1: { label: "View", url: "" },
-    button2: { label: "Download", url: "" }
+    button1: { label: "View", url: "https://drive.google.com/file/d/1R5-yOWhP81g10GvUsFrqNcb-y_-_u5SD/view?usp=drivesdk" },
+    button2: { label: "Download", url: "https://drive.google.com/file/d/1R5-yOWhP81g10GvUsFrqNcb-y_-_u5SD/view?usp=drivesdk" }
   },
   {
     name: "SIH Winner",
     date: "2023-10-12",
     institution: "CMRTC",
     image: sih,
-    button1: { label: "View", url: "" },
-    button2: { label: "Download", url: "" }
+    button1: { label: "View", url: "https://drive.google.com/file/d/1eE2M0NBTQ_8awZEeAc6ao2KzIhAYp5rj/view?usp=drivesdk" },
+    button2: { label: "Download", url: "https://drive.google.com/file/d/1eE2M0NBTQ_8awZEeAc6ao2KzIhAYp5rj/view?usp=drivesdk" }
   }
 ];
