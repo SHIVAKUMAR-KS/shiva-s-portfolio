@@ -64,7 +64,7 @@ const CertificateContainer = styled.div`
   border-radius: 5px;
   padding: 10px;
   max-width: 300px;
-  background-color: #f9f9f9;
+  background-color: #fff;
   text-align: left;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
