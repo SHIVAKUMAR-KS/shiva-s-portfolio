@@ -47,7 +47,7 @@ const Content = styled.div`
 `;
 
 const LeftColumn = styled.div`
-  flex-basis: 48%;
+  flex-basis: 30%;
   color: #676767;
   display: flex;
   flex-direction: column;
@@ -60,7 +60,7 @@ const LeftColumn = styled.div`
 `;
 
 const RightColumn = styled.div`
-  flex-basis: 48%;
+  flex-basis: 45%;
   @media (max-width: 960px) {
     flex-basis: 100%;
   }
@@ -68,8 +68,8 @@ const RightColumn = styled.div`
 
 const ContactHeading = styled.h3`
   color: #FABC3F;
-  font-weight: 500;
-  font-size: 25px;
+  font-weight: 900;
+  font-size: 30px;
   display: flex;
   align-items: center;
 `;

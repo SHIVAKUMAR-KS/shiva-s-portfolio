@@ -15,6 +15,8 @@ import ProjectDetails from "./components/Dialog/ProjectDetails";
 import { useState } from "react";
 import Certificate from "./components/sections/Certificate";
 
+
+//body component is used for applying design on body of web page like applying backgroud color on entire page
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
@@ -22,6 +24,7 @@ const Body = styled.div`
   position: relative;
 `;
 
+//wrapper component is used for naking the design on web page like which is reflect on before project section and afetr contact section
 const Wrapper = styled.div`
   padding-bottom: 100px;
   background: linear-gradient(
