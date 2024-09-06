@@ -240,7 +240,7 @@ const Contact = () => {
             </ContactListItem>
             <ContactListItem>
               <ListItemIcon src={location_icon} alt="" />
-              Student at Cmr Technical Campus and 100xDevs
+              Student at Cmr Technical Campus,Being Zero and 100xDevs
             </ContactListItem>
           </ContactList>
         </LeftColumn>
