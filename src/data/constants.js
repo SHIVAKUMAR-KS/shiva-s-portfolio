@@ -78,7 +78,7 @@ export const Bio = {
   description:
     "Driven and adaptable, I thrive on embracing new challenges with enthusiasm. Passionate about continuous learning, I am committed to excellence and delivering outstanding results. My positive outlook and growth mindset fuel my ambition to make significant contributions and achieve remarkable success.",
   github: "https://github.com/SHIVAKUMAR-KS/",
-  resume:"https://drive.google.com/file/d/1XC4G2ap3mH_7RoSET2H-B8_0BmAoCmBD/view?usp=sharing",
+  resume:"https://drive.google.com/file/d/1wloujMHrQBxdmJ257DX9QwArZb9p-k7V/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/shiva-kumar-390ba5234/",
   twitter: "https://twitter.com/ShivaKu24811690",
   insta: "https://www.instagram.com/shiva7819kumar/",
