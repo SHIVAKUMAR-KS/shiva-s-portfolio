@@ -65,6 +65,7 @@ import sqlC from '../images/certificate/sql_basic certificate_page-0001.jpg'
 import FS_cohort from '../images/certificate/cohort.jpeg'
 import pw from '../images/certificate/PW_SKILLS.png'
 import postmanApi from '../images/certificate/postmanAPI.jpeg'
+import infosys_C from '../images/certificate/Cp-infosys.png'
 
 
 export const Bio = {
@@ -632,6 +633,14 @@ export const Certificates = [
     image: postmanApi,
     button1: { label: "View", url: "https://drive.google.com/file/d/1IEVtJX30Gyh4M1lPPduji-BcYEIw-QRr/view?usp=drivesdk" },
     button2: { label: "Download", url: "https://drive.google.com/file/d/1IEVtJX30Gyh4M1lPPduji-BcYEIw-QRr/view?usp=drivesdk" }
+  },
+  {
+    name: "C Programming",
+    date: "2024-01-10",
+    institution: "Infosys SpringBoard",
+    image: infosys_C,
+    button1: { label: "View", url: "https://drive.google.com/file/d/11cWPRrPPmB5Y8M98G6yGp5yhRM31Mwj8/view?usp=sharing" },
+    button2: { label: "Download", url: "https://drive.google.com/file/d/11cWPRrPPmB5Y8M98G6yGp5yhRM31Mwj8/view?usp=sharing" }
   },
   {
     name: "Full Stack Development",
