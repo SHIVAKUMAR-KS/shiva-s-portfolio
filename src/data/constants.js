@@ -667,7 +667,7 @@ export const Certificates = [
     button2: { label: "Download", url: "https://drive.google.com/file/d/1eE2M0NBTQ_8awZEeAc6ao2KzIhAYp5rj/view?usp=drivesdk" }
   },
   {
-    name: "Ethical Hacking",
+    name: "Ethical Hacking Virtual Intenship",
     date: "2024-11-08",
     institution: "Eduskills,AICTE",
     image: Ethical_Intership,
