@@ -66,7 +66,7 @@ import FS_cohort from '../images/certificate/cohort.jpeg'
 import pw from '../images/certificate/PW_SKILLS.png'
 import postmanApi from '../images/certificate/postmanAPI.jpeg'
 import infosys_C from '../images/certificate/Cp-infosys.png'
-
+import Ethical_Intership from '../images/certificate/Eduskills,Ethical.png'
 
 export const Bio = {
   name: "Shiva kumar",
@@ -665,5 +665,13 @@ export const Certificates = [
     image: sih,
     button1: { label: "View", url: "https://drive.google.com/file/d/1eE2M0NBTQ_8awZEeAc6ao2KzIhAYp5rj/view?usp=drivesdk" },
     button2: { label: "Download", url: "https://drive.google.com/file/d/1eE2M0NBTQ_8awZEeAc6ao2KzIhAYp5rj/view?usp=drivesdk" }
+  },
+  {
+    name: "Ethical Hacking",
+    date: "2024-11-08",
+    institution: "Eduskills,AICTE",
+    image: Ethical_Intership,
+    button1: { label: "View", url: "https://drive.google.com/file/d/1yq9JJy22fzWKDkZttYUdQ7eWtu6igXa-/view?usp=sharing" },
+    button2: { label: "Download", url: "https://drive.google.com/file/d/1yq9JJy22fzWKDkZttYUdQ7eWtu6igXa-/view?usp=sharing" }
   }
 ];
