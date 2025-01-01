@@ -67,6 +67,8 @@ import pw from '../images/certificate/PW_SKILLS.png'
 import postmanApi from '../images/certificate/postmanAPI.jpeg'
 import infosys_C from '../images/certificate/Cp-infosys.png'
 import Ethical_Intership from '../images/certificate/Eduskills,Ethical.png'
+import problem_solving from '../images/certificate/Problem_Solving.png'
+
 
 export const Bio = {
   name: "Shiva kumar",
@@ -617,6 +619,14 @@ export const Certificates = [
     image:sqlC,
     button1: { label: "View", url: "https://www.hackerrank.com/certificates/bf4e189dfe94" },
     button2: { label: "Download", url: "https://www.hackerrank.com/certificates/bf4e189dfe94" }
+  },
+  {
+    name: "Problem Solving",
+    date: "2025-01-01",
+    institution: "HackerRank",
+    image:problem_solving,
+    button1: { label: "View", url: "https://www.hackerrank.com/certificates/6f8b6ebc638c" },
+    button2: { label: "Download", url: "https://www.hackerrank.com/certificates/6f8b6ebc638c" }
   },
   {
     name: "Data Analyst",
