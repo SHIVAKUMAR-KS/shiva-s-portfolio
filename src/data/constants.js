@@ -9,6 +9,7 @@ import Javascript from '../images/frontend/javascript.png'
 import bootstrap from '../images/frontend/bootstrap.jpeg'
 import aceternity from '../images/frontend/aceternity.png'
 import shadcn from '../images/frontend/shadcn.png'
+import daisy from '../images/frontend/daisy.png'
  
 //backend
 import node  from '../images/backend/node.jpeg'
@@ -21,6 +22,7 @@ import postgres  from '../images/backend/postgres.png'
 import mongodb  from '../images/backend/mongodb.png'
 import cloudfare  from '../images/backend/cloudfare.png'
 import hono  from '../images/backend/hono.jpeg'
+import webrtc  from '../images/backend/webrtc.png'
 
 // //Programming languages
 import  java from '../images/Programming_Lang/java.png'
@@ -33,6 +35,7 @@ import  ts from '../images/Programming_Lang/typescript.png'
 
 //devops
 import docker from '../images/devops/docker.png'
+import jenkin from '../images/devops/jenkin.png'
 
 import xml  from '../images/backend/xml.jpeg'
 
@@ -49,6 +52,7 @@ import postman  from '../images/others/postman.png'
 import mongo  from '../images/others/mongoCompas.png'
 import figma  from '../images/others/figma.png'
 import canva  from '../images/others/canva.jpeg'
+import music from '../images/Project/music.jpeg'
 
 import cmr  from '../images/cmr.png'
 import bz  from '../images/bz.jpeg'
@@ -115,11 +119,11 @@ export const skills = [
         image:vite
       },
       {
-        name: "HTML",
+        name: "HTML5",
         image: html
       },
       {
-        name: "CSS",
+        name: "CSS3",
         image:css
       },
       {
@@ -134,9 +138,14 @@ export const skills = [
         name: "Aceternity UI",
         image:aceternity
       },
+      
       {
         name: "Shadcn UI",
         image:shadcn
+      },
+      {
+        name: "Daisy UI",
+        image:daisy
       },
     ],
   },
@@ -184,6 +193,10 @@ export const skills = [
         name: "Hono Js",
         image:hono
       },
+      {
+        name: "WebRTC",
+        image:webrtc
+      },
       // {
       //   name: "Firebase",
       //   image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
@@ -217,11 +230,7 @@ export const skills = [
         name: "TypeScript",
         image: ts
       },
-      {
-        name: "PHP",
-        image: php
-
-      },
+      
     ]
   },
   {
@@ -232,14 +241,18 @@ export const skills = [
       //   image:
       //     "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
       // },
-      // {
-      //   name: "Google Cloud",
-      //   image:
-      //     "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
-      // },
+       {
+       name: "Google Cloud",
+         image:
+          "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
+       },
       {
         name: "Docker",
         image:docker
+      },
+      {
+        name: "Jekkins",
+        image:jenkin
       },
       // {
       //   name: "Jenkins",
@@ -562,6 +575,19 @@ export const projects = [
     category: "web app",
     github: "https://github.com/SHIVAKUMAR-KS/Educity-React_App",
     webapp: "https://educity-react-app-w9lp.vercel.app/",
+    
+  },
+  {
+    id: 11,
+    title: "Music School",
+    date: "OCT 2024 - NOV 2024",
+    description:
+     "Develop a frontend application with the help of Next-js techstacks and develoyed on vercel ",
+    image:
+        "",
+    category: "web app",
+    github: "https://github.com/SHIVAKUMAR-KS/NextWith_Aceternity-UI",
+    webapp: "https://music-school-topaz.vercel.app/",
     
   },
   {
