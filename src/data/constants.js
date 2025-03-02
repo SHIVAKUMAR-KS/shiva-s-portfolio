@@ -60,6 +60,7 @@ import kwoc  from '../images/kwoc.jpeg'
 import holymission  from '../images/holymission.jpeg'
 import mlsm  from '../images/mlsm.jpeg'
 import sih from '../images/certificate/CERTIFICATES SIH (1).png'
+import sde from '../images/certificate/HACKERRANK_SDE.png'
 
 //certificates
 import dataAnalyst from '../images/certificate/Google Cloud Career Launchpad Certificate - 9XKkaXFT - Shiva Kumar_page-0001.jpg'
@@ -623,12 +624,20 @@ export const projects = [
 
 export const Certificates = [
   {
+    name: "Software Engineer Intern",
+    date: "2025-03-02",
+    institution: "HackerRank",
+    image:sde,
+    button1: { label: "View", url: "https://www.hackerrank.com/certificates/80c3ce830f14" },
+    button2: { label: "Download", url: "https://www.hackerrank.com/certificates/80c3ce830f14" }
+  },
+  {
     name: "Java",
     date: "2024-03-08",
     institution: "HackerRank",
     image:javaC,
-    button1: { label: "View", url: "https://www.hackerrank.com/certificates/80c3ce830f14" },
-    button2: { label: "Download", url: "https://www.hackerrank.com/certificates/80c3ce830f14" }
+    button1: { label: "View", url: "https://www.hackerrank.com/certificates/9dc7d46c4f08" },
+    button2: { label: "Download", url: "https://www.hackerrank.com/certificates/9dc7d46c4f08" }
   },
   {
     name: "Python",
